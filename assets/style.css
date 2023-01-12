@@ -137,8 +137,9 @@
       background: var(--gradient-color);
       background-repeat: var(--gradient-color);
       padding: 1.4rem;
-    
+      width: 100vw;
     }
+    
     main{
       padding-left: 3rem;
       width: 20px;
@@ -150,7 +151,7 @@
       width: 220px;
     }
     nav{
-      gap: 27rem;
+      gap: 20rem;
       padding-left: 3rem;
       
     }
@@ -165,13 +166,13 @@
       
     }
     .Kaonashi {
-      width: 370px;
+      width: 350px;
     }
     .TituloAnimação {
       color: #F9F9F9;
-      width: px;
+      width: 350px;
       height: 148px;
-      font-size: 54px;
+      font-size: 44px;
     }
     .buttons{
       display: flex;
@@ -182,7 +183,7 @@
       display: none;
     }
     p.text1{
-      width: 370px;
+      width: 350px;
     }
    }
   
