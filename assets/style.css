@@ -15,6 +15,7 @@
    background: var(--gradient-color);
    padding-left: 16rem;
    background-repeat: var(--gradient-color);
+   width: 100vw;
    
   }
   .logo{
@@ -27,7 +28,7 @@
     padding: auto;
     margin: auto;
     display: flex;
-    gap: 65rem;
+    gap: 60%;
     margin-top: 2rem;
     
   }
@@ -109,7 +110,11 @@
     gap: 17rem;
     margin-top: 1rem;
   }
+   .Kaonashi {
+    width: 500px;
+    display: flex;
    
+   }
    .buttons{
     display: flex;
     gap: 1rem;
@@ -119,7 +124,7 @@
    }
 
 
-   @media (max-width: 768px){
+   @media (max-width: 1020px){
     *{
       margin:0;
       padding: 0;
@@ -136,6 +141,10 @@
     }
     main{
       padding-left: 3rem;
+      width: 20px;
+      display: block
+      ;
+      padding-top: 30rem;
     }
     button{
       width: 220px;
@@ -148,4 +157,29 @@
     .IconsMenu{
       padding-top: 1.2rem;
     }
+    img.Kaonashi{
+      position: 
+      absolute;
+      top:10px;
+      
+      
+    }
+    .Kaonashi {
+      width: 370px;
+    }
+    .TituloAnimação {
+      color: #F9F9F9;
+      width: px;
+      height: 148px;
+      font-size: 54px;
+    }
+    .buttons{
+      display: flex;
+      position: relative;
+      top: 50px;
+    }
+    .assistir {
+      display: none;
+    }
    }
+  
