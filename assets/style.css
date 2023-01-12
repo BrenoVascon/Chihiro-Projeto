@@ -181,5 +181,8 @@
     .assistir {
       display: none;
     }
+    p.text1{
+      width: 380px;
+    }
    }
   
